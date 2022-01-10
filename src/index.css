@@ -5,7 +5,7 @@
 }
 
 body {
- 
+ background-color: rgb(224, 223, 223);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -31,13 +31,14 @@ code {
   height: 250px;
 }
 .Time h1{
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 30px;
-  padding: 10px 15px;
+  padding: 10px 5px;
 }
 
 .head{
   font-size: 2.5rem;
+  margin-top: 10px;
 }
 
 .Time button{
@@ -50,8 +51,8 @@ code {
 
 .blessing{
   margin-top: 50px;
-  width: 30%;
-  padding: 20px 10px;
+  /* width: 30%; */
+  padding: 20px 60px;
   background: #ff523b;
   height: 250px;
 
@@ -85,4 +86,13 @@ code {
 
 .count > button:hover{
   background-color: #fff;
+}
+
+
+@media (min-width: 350px) {
+
+  .Time, .blessing{
+    margin: 20px;
+  }
+
 }
