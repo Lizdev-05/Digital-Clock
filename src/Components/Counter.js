@@ -17,7 +17,7 @@ function Counter() {
 
     return (
         <div className="blessing">
-            <h1 className='cyb'>Count Your Blessings</h1>
+            <h1 className='header'>Count Your Blessings</h1>
            <div className='count'>
                <h1>{count}</h1>
            <button onClick={increase}>+</button>

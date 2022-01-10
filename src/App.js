@@ -4,7 +4,7 @@ import Counter from './Components/Counter'
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <DigitalTime/>
       <Counter/>
     </div>

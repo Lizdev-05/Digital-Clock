@@ -1,0 +1,168 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    width: 25%;
+    padding: 20px 10px;
+    background: #ff523b;
+    height: 250px;
+}
+ 
+.container .header {
+   font-size: 30px;
+   text-align: center;
+}
+
+.container span{
+    font-size: 100px;
+    display: block;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.button-container .decrease {
+    background: #fff;
+    color: Purple;
+    border: none;
+    outline: none;
+    padding: 11px 20px;
+     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.button-container .increase {
+    background: #fff;
+    color: green;
+    border: none;
+    outline: none;
+    padding: 11px 20px;
+     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+.button-container .reset {
+    background: #fff;
+    color: blue;
+    border: none;
+    outline: none;
+    padding: 11px 20px;
+     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.container p{
+  margin-top: 30px;
+ font-size: 18px;
+ color: rgb(58, 56, 56);
+}
+
+
+@media screen and (max-width: 600px) {
+    .btn-container {
+      width: 100%;
+    }
+  
+    .btn-container .btn {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 10px;
+    }
+    .container {
+      width: 100%;
+    }
+
+    
+    .button-container .decrease {
+        padding: 11px 7px;
+    }
+
+    .button-container .increase {
+        padding: 11px 7px;  
+    }
+
+    .button-container .reset {
+        padding: 11px 10px;  
+    }
+
+    .container p{
+        font-size: 16px;
+    }
+  }
+  
+
+  @media only screen and (max-width: 800px) {
+    .btn-container .btn {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .container {
+      width: 75%;
+    }
+
+    
+    .button-container .decrease {
+        padding: 11px 7px;
+    }
+
+    .button-container .increase {
+        padding: 11px 7px;  
+    }
+
+    .button-container .reset {
+        padding: 11px 10px;  
+    }
+  
+  }
+
+  @media only screen and (min-width: 992px) {
+    .container {
+      width: 30%;
+    }
+
+} */
+
+
+.main{
+  background-color: green;
+}
